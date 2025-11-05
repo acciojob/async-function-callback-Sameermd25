@@ -13,8 +13,7 @@ async function getData(callback){
 	}
 }
 function callbackFunction(jsonData) {
-	outputDiv.innerHTML=`<h3>${jsonData.title}</h3>
-        <p>${jsonData.body}</p>`
+	outputDiv.innerHTML=`<h3>${jsonData.title}</h3>`
 }
 
 btn.addEventListener("click",()=>{
